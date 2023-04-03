@@ -23,6 +23,7 @@ The navigation section is styled to have a logo, menu, and some menu items. The 
 Each product item is defined using a container with a background color, an image, name, price, and description. Overall, the CSS code uses a lot of flexbox properties to create a responsive layout that works well on different devices.
 
 
+
 Explore my Eco-Friendly Store here
 
 https://profound-crostata-bfaae4.netlify.app/
