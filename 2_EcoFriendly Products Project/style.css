@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+    height: 100vh;
+}
+/* DECLARED VARIABLES */
+:root{
+    --main-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --primary-font: 'sans-serif';
+    --main-color: azure;
+}
+/* NAV START */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+.logo{
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 3rem;
+    border: 5px solid lawngreen;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+.menu span{
+    border: 2px solid var(--main-color);
+    width: 30px;
+    width: 33px;
+    height: 1px;
+    margin: 2px;
+}
+/* NAV END */
+
+/* HEADER START */
+
+header{
+    color: var(--main-color);
+    font-family: var(--main-font);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    margin-top : 2rem;
+}
+
+.main-headings{
+    font-family: var(--main-font);
+    font-size: 4rem;
+    transform: translateY(-40px);
+    color: aquamarine;
+    line-height: 5rem;
+}
+.about-store{
+    max-width: 500px;
+    color: lightyellow;
+    margin-bottom :1rem;
+    font-family: var(--primary-font);
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+}
+.button-one{
+    background: var(--main-color);
+    color: #111;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 20px;
+    margin-right: 10px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.button-one:hover{
+    background: teal;
+    color: white;
+    border: 5px solid azure;
+    border-radius: 4px;
+}
+.button-two{
+    background: transparent;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    border-radius: 3px;
+    padding: 10px 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.button-two:hover{
+    background: var(--main-color);
+    color: black;
+}
+
+.img-container{
+    border-radius: 50%;
+    box-shadow: 2px 4px 7px 3px lightgrey;
+}
+.header-img{
+    border-radius: 100%;
+    background : url(https://media.istockphoto.com/id/506878884/photo/eco-fashion-concept.jpg?s=612x612&w=0&k=20&c=oUeqSsXYQU3Wr7jArbNFZNW0wEOeOWN9JgXNcZUtG6c=);
+    background-position: top;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+/* MAIN PART ONE  */
+.section-one{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+}
+.section-one-img{
+    background: url(https://x2m4q8n7.stackpathcdn.com/wp-content/uploads/2019/11/Mungo_Yarn_Organic_Cotton_8-1200x745.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+/* PRODUCTS PART */
+
+.products{
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.products .products-heading{
+    font-family: var(--main-font);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: var(--main-color);
+}
+.products .product-categories button{
+    margin-right: 20px;
+    margin-bottom: 2rem;
+
+}
+.products .items-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    max-width: 60rem;
+}
+.products .items-container .items{
+    margin: 20px;
+}
+.products .items-container .items .item-clothes{
+    background: #ebf1f0;
+    padding: 40px;
+    margin: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.products .items-container .item-clothes img{
+    width: 200px;
+    height: 200px;
+}
+.products .items-container .items .item-name{
+    font-family: var(--main-font);
+    margin-bottom: 10px;
+    color: var(--main-color);
+    text-align: center;
+}
+.products .items-container .items .item-price{
+    font-family: var(--main-font);
+    margin-bottom: 10px;
+    color: var(--main-color);
+    text-align: center;
+}
+.products .items-container .items a{
+    font-family: var(--main-font);
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    margin-left: 105px;
+}
+/* FOOTER */
+
+footer{
+    display: flex;
+    background: aquamarine;
+    margin-top: 20rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: var(--main-font);
+}
+
+footer .container .footer-heading{
+    margin-bottom: 2rem;
+    margin-top: 20px;
+}
+footer .container .footer-primary-heading{
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+footer .container .footer-bottom{
+    font-size: 2rem;
+
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:900px) {
+    header{
+        height: 120vh;
+        text-align: center;
+    }
+    .section-one{
+        height: 120vh;
+        text-align: center;
+    }
+    .header-img{
+        width: 250px;
+        height: 250px ;
+    }
+    .main-headings{
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    .about-store{
+        width: 380px;
+    }
+}
