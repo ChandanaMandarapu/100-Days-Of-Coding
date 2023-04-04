@@ -6,6 +6,6 @@ Only a simple Html for the video and used a section for the content
 
 And Css is as simple as that main important thing used is flex and z-index and font properties and hover properties.
 
-Explore my project here
+Explore my project here .
 
 https://endearing-chaja-7dc3ec.netlify.app/
