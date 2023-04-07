@@ -2,13 +2,6 @@ Hello Everyone,
 
 Cards Animation Project is all about how the images show different animations when hovered.
 
-HTML:
-
-The HTML code represents a card design with a title, content, and an image.
-It uses semantic HTML elements such as <section>, <article>, <h2>, <p>, and <a> to structure the content.
-The card design is divided into two sections: <section class="card-container"> and <section class="img-card">, each containing different content.
-The card-container section contains a title (<h2>), content (<p>), and a "Learn More" link (<a>).
-The img-card section contains an image (<img>).
 
 CSS:
 
