@@ -20,3 +20,9 @@ body{
     -webkit-background-clip: text;
     color: transparent;
 }
+.name:hover{
+    transform: scale(1.5);
+    box-shadow: 2px 3px 4px 5px lightgray;
+    transform: rotate(-50%);
+    cursor: pointer;
+}
