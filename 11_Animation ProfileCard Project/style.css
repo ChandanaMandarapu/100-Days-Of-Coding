@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(fuchsia,rgb(112, 16, 203));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(azure,lemonchiffon);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: rotateY(10deg) translateY(-10px);
+}
+
+.women {
+    height: 400px;
+    overflow: hidden;
+    transform-origin: center center;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .women {
+    transform: rotateX(10deg);
+    cursor: pointer;
+}
+
+.women img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(azure,lemonchiffon);
+    color: #111;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+p {
+    margin: 0;
+    color: rgb(82, 70, 115);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(233, 100, 233);
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #333;
+}
