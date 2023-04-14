@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(45deg,rgb(253, 95, 253),rgb(140, 35, 215),rgb(8, 100, 249),rgb(7, 233, 7),yellow,rgb(255, 123, 0),rgb(242, 43, 43));
+}
+body, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Quote container */
+  .quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Quote card */
+  .quote-card {
+    background-color: #111;
+    color: azure;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s ease;
+    transform: rotate(-10deg) skewX(-10deg) scale(0.9);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .quote-card:hover {
+    transform: rotate(0deg) skewX(0deg) scale(1);
+  }
+  
+  
+  .quote {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+
+  .author {
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 600;
+    color: papayawhip;
+    transition: transform 0.3s ease;
+  }
+  
+
+  .quote-card:hover .quote {
+    transform: translateY(-10px);
+  }
+  
+
+  .image-overlay {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.3s ease;
+    transform: scale(1.2);
+  }
+  
+  .quote-card:hover .image-overlay {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
