@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+:root {
+    --main-color: rgb(179, 22, 22);
+    --black-color: #050505;
+    --main-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --secondary-font: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    color: #000;
+    font-family: var(--main-font);
+    margin: 0;
+    padding: 2rem;
+}
+
+.highlight {
+    color: var(--main-color);
+}
+
+.main-btn-fill {
+    background: var(--main-color);
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-family: var(--secondary-font);
+    margin: 10px;
+}
+
+.main-btn {
+    background: #111;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-family: var(--secondary-font);
+    margin: 10px;
+}
+
+.btn-animation:hover {
+    background: whitesmoke;
+    color: black;
+    border: 1px solid #000;
+    transition: 0.3s ease;
+}
+
+/* Header */
+.top-header {
+    height: 80vh;
+    background: papayawhip;
+}
+
+.top-header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.main-headings {
+    color: var(--black-color);
+    font-family: var(--main-font);
+    font-size: 350%;
+    margin: 3rem;
+}
+
+.main-img {
+    margin-right: 20px;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.main-img:hover {
+    transform: scale(1.2);
+    transform: rotateX(10deg);
+    transition: 0.3s ease;
+    cursor: pointer;
+    filter: grayscale(30%);
+    box-shadow: 10px 8px 30px rgba(0, 0, 0, 0.9);
+}
+
+/* Orders section */
+
+.order {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 1, 1);
+    color: whitesmoke;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+.order__img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10%;
+    background-image: url('https://media.istockphoto.com/id/979882532/photo/many-cups-of-coffee-on-wooden-table-top-view.jpg?s=612x612&w=0&k=20&c=pdPdUZ1GXKvJsvcWJ9hje2qsgHyig2fgSK8HHzxRVLs=');
+    background-position: center;
+    background-size: cover;
+    margin-right: 3rem;
+}
+
+.order__img:hover {
+    transform: scale(1.2);
+    transform: rotateX(10deg);
+    transition: 0.3s ease;
+    cursor: pointer;
+    filter: grayscale(30%);
+    box-shadow: 10px 8px 30px rgba(#fff, #eee, #ddd);
+}
+
+.order__content {
+    width: 30rem;
+}
+
+.order__headings {
+    font-family: var(--secondary-font);
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.order__sub-headings {
+    font-family: var(--secondary-font);
+    margin-bottom: 2rem;
+}
+
+.order-btn {
+    border: 1px solid whitesmoke;
+}
+
+/* Varieties of coffees */
+
+.about {
+    height: 110vh;
+    color: #000;
+    background-color: papayawhip
+}
+
+.about-headings {
+    text-align: center;
+    padding: 2rem;
+}
+
+.coffee-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__card {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.card__title {
+    font-family: var(--main-font);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card__img {
+    width: 350px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+
+.card__img:hover {
+    transform: scale(1.2);
+    transform: rotateX(10deg);
+    transition: 0.3s ease;
+    cursor: pointer;
+    filter: grayscale(30%);
+    box-shadow: 10px 8px 30px rgba(#fff, #eee, #ddd);
+}
+
+.img-one {
+    background-image: url('https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA= ');
+}
+
+.img-two {
+    background-image: url('https://media.istockphoto.com/id/861100778/photo/fresh-coffee.jpg?s=612x612&w=0&k=20&c=gM4IEjHl0z5a3pHatqVHfV1U7HBtSPEabCqWhCypxjk=');
+}
+
+.img-three {
+    background-image: url('https://media.istockphoto.com/id/528637592/photo/homemade-coffee-cocktail-with-whipped-cream-and-liquid-chocolate.jpg?s=612x612&w=0&k=20&c=9mZaGl_QNGMJv4nvE4e6xCtozQOXvDLUx2WDqlZsKnM=');
+}
+
+.card-info {
+    margin-top: 20px;
+    font-family: var(--secondary-font);
+    text-align: center;
+    line-height: 20px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* section 4 */
+
+.testimonal {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(68, 1, 1);
+    color: whitesmoke;
+    margin-top: 3rem;
+}
+
+.user-img {
+    background-image: url('https://media.istockphoto.com/id/1230418546/photo/young-beautiful-happy-woman-enjoying-cappuccino-in-a-cafe.jpg?s=612x612&w=0&k=20&c=IbOUWIBhW1Hfaky0H4Z90jt3at1yxFgeqsla-RZte5I=');
+    background-size: cover;
+    background-position: center;
+    width: 26%;
+    height: 30rem;
+    box-shadow: 20px 20px 2px 2px #fff;
+    border-radius: 10%;
+}
+
+.user-img:hover {
+    transform: scale(1.2);
+    transform: rotateX(10deg);
+    transition: 0.3s ease;
+    cursor: pointer;
+    filter: grayscale(30%);
+    box-shadow: 10px 8px 30px rgba(#fff, #eee, #ddd);
+}
+
+.user-rating-info {
+    width: 30rem;
+    margin-left: 60px;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.user-name {
+    font-size: 23px;
+    margin-top: 20px;
+    font-family: var(--main-font);
+    color: papayawhip;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    background: papayawhip;
+    color: #000;
+    height: 40vh;
+}
+
+.footer-card {
+    margin: 0 auto;
+    font-family: var(--secondary-font);
+    font-weight: normal;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.footer-info {
+    margin-bottom: 10px;
+
+}
+
+
