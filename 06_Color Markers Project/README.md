@@ -6,6 +6,6 @@ Here I have used only width,height,display properties to style the colors. But w
 
 Additionals I added to the project are hover and animation properties which made it even more accesible and the User experince will also be better used transform transition and hover properties to make it more realistic.
 
-Explore my project here
+Explore my project here 
 
 https://splendid-phoenix-e655d5.netlify.app/
