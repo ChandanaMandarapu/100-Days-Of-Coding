@@ -14,6 +14,6 @@ Styles the navigation bar with a logo, a menu button, and links.
 Styles the header section with a heading, an image, and some text.
 Styles the products section with a heading, category buttons, and items with images, names, and prices
 
-Explore my project here
+Explore my project here 
 
 https://profound-crostata-bfaae4.netlify.app/
