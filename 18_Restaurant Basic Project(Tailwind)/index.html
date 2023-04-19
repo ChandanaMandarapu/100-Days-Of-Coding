@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
+</head>
+
+<body class="body bg-purple-700">
+  <header class="py-4 bg-black text-white">
+    <nav class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-800 ml-4 text-yellow-200">Foodyy</h1>
+      <ul class="flex">
+        <li class="ml-6 p-4 mr-4"><a href="#" class="hover:text-yellow-200 text-xl">Home</a></li>
+        <li class="ml-6 p-4 mr-4"><a href="#" class="hover:text-yellow-200 text-xl">Menu</a></li>
+        <li class="ml-6 p-4 mr-4"><a href="#" class="hover:text-yellow-200 text-xl">About Us</a></li>
+        <li class="ml-6 p-4 mr-4"><a href="#" class="hover:text-yellow-200 text-xl">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero bg-cover bg-center bg-no-repeat h-screen flex flex-col justify-center items-center">
+      <div class="hero-content text-white text-center">
+        <h2 class="text-8xl font-bold mb-4 text-yellow-300">Welcome to Foodyy</h2>
+        <p class="text-3xl text-gray-800">Savor the taste of delicious food</p>
+        <button class="bg-white text-gray-800 font-bold rounded-full px-8 py-3 mt-8 hover:bg-yellow-200 transition duration-200">Order Now</button>
+      </div>
+    </section>
+
+    <section class="menu container mx-auto my-16">
+      <h2 class="text-4xl font-bold mb-8 flex justify-center items-center text-yellow-200">Our Menu</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="menu-item bg-yellow-200 rounded-lg overflow-hidden shadow-lg">
+          <img src="https://media.istockphoto.com/id/996699224/photo/assorted-indian-food-for-lunch-or-dinner-rice-lentils-paneer-dal-makhani-naan-chutney-spices.jpg?s=612x612&w=0&k=20&c=WjUXTcVnvbeiBJ2H2nNefpjk_B4zXikjkUFG-GhSJ54=" alt="Menu Item" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Menu Item 1</h3>
+            <p class="text-gray-700">Description of the menu item goes here.</p>
+            <button class="bg-gray-800 text-white font-bold rounded-full px-8 py-3 mt-4 hover:bg-purple-600 transition duration-200">Order Now</button>
+          </div>
+        </div>
+        <div class="menu-item bg-yellow-200 rounded-lg overflow-hidden shadow-lg">
+          <img src="https://media.istockphoto.com/id/1418100766/photo/group-of-south-indian-food-like-masala-dosa-idli-wada-or-vada-sambar-served-over-banana-leaf.jpg?s=612x612&w=0&k=20&c=F72aBh8w_Wtx6XoFmcBllkp0_zKzMClzJGB-YFM0lYE=" alt="Menu Item" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Menu Item 2</h3>
+            <p class="text-gray-700">Description of the menu item goes here.</p>
+            <button class="bg-gray-800 text-white font-bold rounded-full px-8 py-3 mt-4 hover:bg-purple-600 transition duration-200">Order Now
+            </div>
+        </div>
+        <div class="menu-item bg-yellow-200 rounded-lg overflow-hidden shadow-lg">
+          <img src="https://media.istockphoto.com/id/1253935065/photo/online-food-delivery-mutton-and-chicken-curry-in-plastic-container.jpg?s=612x612&w=0&k=20&c=V4sXWkeJ0En4MyG-XSPrVAYBa5wRuJ73TfZrIP0mnzo=" alt="Menu Item" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Menu Item 3</h3>
+            <p class="text-gray-700">Description of the menu item goes here.</p>
+            <button class="bg-gray-800 text-white font-bold rounded-full px-8 py-3 mt-4 hover:bg-purple-600 transition duration-200">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="about-us container mx-auto my-16">
+      <h2 class="text-4xl font-bold mb-8 ml-8 text-yellow-200">About Us</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="about-us-content">
+          <h3 class="text-2xl font-bold mb-2 ml-10">Our Story</h3>
+          <p class="text-yellow-100 h-20 ml-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ullamcorper lacus. In vel magna eget lectus facilisis tincidunt eget vel lorem. Nam bibendum nisl sit amet tellus pharetra eleifend. Donec mattis, est ac aliquam finibus, nisi nulla vestibulum lacus, eget consectetur mauris mauris at libero. </p>
+        </div>
+        <div class="about-us-image">
+          <img src="https://media.istockphoto.com/id/157533612/photo/indian-palace.jpg?s=612x612&w=0&k=20&c=6Q2B7L2iSiYihFfMtDpNi9V0RSSECCV-vXhlLTf9t6s=" alt="About Us Image" class="w-2/3 h-full object-cover rounded-2xl shadow-lg ml-20">
+        </div>
+      </div>
+    </section>
+    
+    <section class="contact-us container mx-auto my-16">
+      <h2 class="text-4xl font-bold mb-8 text-yellow-200 ml-10">Contact Us</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="contact-us-form bg-gray-200 ml-12 rounded-lg overflow-hidden shadow-lg p-8">
+          <form>
+            <div class="mb-4">
+              <label class="block text-gray-700 font-bold mb-2" for="name">Name</label>
+              <input class="border rounded-lg py-2 px-3 text-gray-700 w-full" type="text" id="name" name="name" placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 font-bold mb-2" for="email">Email</label>
+              <input class="border rounded-lg py-2 px-3 text-gray-700 w-full" type="email" id="email" name="email" placeholder="Your Email">
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 font-bold mb-2" for="message">Message</label>
+              <textarea class="border rounded-lg py-2 px-3 text-gray-700 w-full" id="message" name="message" placeholder="Your Message"></textarea>
+            </div>
+            <button class="bg-gray-800 text-white font-bold rounded-full px-8 py-3 mt-4 hover:bg-gray-700 transition duration-300">Submit</button>
+          </form>
+        </div>
+        <div class="contact-us-info mt-16 ml-12">
+          <h3 class="text-2xl mb-4 font-bold text-yellow-100 
+          ">Our Location</h3>
+          <p class="text-gray-200 mb-4">123 Main Street</p>
+          <h3 class="text-2xl mb-4 font-bold text-yellow-100">Phone Number</h3>
+          <p class="text-gray-200 mb-4">555-555-5555</p>
+          <h3 class="text-2xl mb-4 font-bold text-yellow-100">Email Address</h3>
+          <p class="text-gray-200 mb-4">info@restaurant.com</p>
+          </div>
+          </div>
+          </section>
+          <footer class="bg-black text-white py-8 ">
+            <div class="container mx-auto">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="footer-logo">
+                  <h3 class="text-3xl font-bold mb-2 ml-12 text-yellow-100">FOODYY</h3>
+                </div>
+                <div class="footer-links">
+                  <h3 class="text-2xl font-bold mb-2 text-yellow-100">Links</h3>
+                  <ul>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Menu</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="footer-social">
+                  <h3 class="text-xl font-bold mb-2 text-yellow-100">Social</h3>
+                  <ul>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Facebook</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Twitter</i></a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Instagram</i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-text mt-8 text-center">
+                <p>&copy; 2023 Foodyy. All Rights Reserved.</p>
+              </div>
+            </div>
+          </footer>
+        </main>
+        </body>
+        </html>              
