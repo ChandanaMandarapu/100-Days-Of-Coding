@@ -4,6 +4,6 @@ This is a very simple skill bar project I have used basic html and css and some 
 
 Used nth child properties in CSS and for each loop to cover the width of the progress bar.
 
-Explore my project here
+Explore my project here 
 
 https://fanciful-torrone-00fbaf.netlify.app/

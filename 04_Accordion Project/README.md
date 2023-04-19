@@ -17,6 +17,6 @@ The .accordion class sets the margin and width of the component, and the .accord
 
 The label element within each list item is styled with padding, a navy border, and a font weight of 600. The span element inside the label is rotated to serve as an indicator for the accordion. The input[type="radio"] element is hidden using the adjacent sibling selector, and the .content class, which contains the content of each accordion panel, is styled with padding and hidden with a max-height of 0 and overflow set to hidden.
 
-Explore my project here
+Explore my project here 
 
 https://dynamic-pasca-5ade96.netlify.app/

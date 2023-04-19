@@ -23,7 +23,7 @@ In this project, I have utilized my knowledge of HTML and CSS to create visually
 
 Thank you for checking out my Music Instruments Ecommerce Store project!
 
-Explore my project here
+Explore my project here 
 
 https://wondrous-pony-145c30.netlify.app/
 
