@@ -17,7 +17,7 @@ The image within the img-card section has absolute positioning and object-fit se
 
 This code creates a card design with a visually appealing layout and hover effects for an interactive user experience. You can use this code as a starting point for creating your own card designs in your web projects, and you may want to customize the styles, content, and images to suit your specific needs.
 
-Its not responsive
+Its not responsive 
 
 Explore my Project here
 https://monumental-bublanina-754a9a.netlify.app/
