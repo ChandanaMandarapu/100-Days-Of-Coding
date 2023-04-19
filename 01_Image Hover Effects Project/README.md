@@ -6,6 +6,6 @@ Html File contains of a Section of container with three div elements of class Bo
 
 Css File containes styles for container,boxes and elements.The image backgrounds are set using the background property, and the clip path property is used to create the triangular shape for each image using polygon method. The hover effect is created using the :hover pseudo-class and the clip-path property. I have also added some media queries accordingly.
 
-Explore my Project here 👇
+Explore my Project here  👇
 
 https://cozy-palmier-4efd51.netlify.app/
