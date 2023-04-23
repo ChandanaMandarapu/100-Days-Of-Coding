@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+  <header class="bg-slate-100 shadow-lg fixed w-full z-10">
+    <nav class="flex items-center justify-between flex-wrap p-6 lg:px-12 lg:py-4">
+      <div class="flex items-center flex-shrink-0 text-teal-600">
+        <span class="font-bold text-5xl tracking-tight">Art</span>
+      </div>
+
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow">
+          <ul class="list-reset lg:flex justify-end items-center">
+            <li class="mr-3">
+              <a href="#"
+                class="block lg:inline-block hover:text-teal-600 hover:bg-gray-100 px-3 py-2 rounded-md text-xl">Home</a>
+            </li>
+            <li class="mr-3">
+              <a href="#features"
+                class="block lg:inline-block hover:text-teal-600 hover:bg-gray-100 px-3 py-2 rounded-md text-xl">Features</a>
+            </li>
+            <li class="mr-3">
+              <a href="#about"
+                class="block lg:inline-block hover:text-teal-600 hover:bg-gray-100 px-3 py-2 rounded-md text-xl">About</a>
+            </li>
+            <li class="mr-3">
+              <a href="#gallery"
+                class="block lg:inline-block hover:text-teal-600 hover:bg-gray-100 px-3 py-2 rounded-md text-xl">Gallery</a>
+            </li>
+            <li class="mr-3">
+              <a href="#review"
+                class="block lg:inline-block hover:text-teal-600 hover:bg-gray-100 px-3 py-2 rounded-md text-xl">Review</a>
+            </li>
+            <li>
+              <a href="#contact"
+                class="block lg:inline-block hover:text-teal-600 hover:bg-gray-100 px-3 py-2 rounded-md text-xl">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="h-screen bg-cover bg-center md:bg-left lg:bg-center"
+    style="background-image: url('https://media.istockphoto.com/id/1443323120/photo/colourful-acrylic-background-colourful-canvas.jpg?s=612x612&w=0&k=20&c=FAitWveGH8h0yI2tGoNIeHvmqRAZ0DVUT0gLFVORLIY=')">
+    <div class="flex flex-col justify-center items-center h-full px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-8 md:mb-12 lg:mb-16 xl:mb-20">
+        Discover a World of Art
+      </h1>
+      <p class="text-lg md:text-xl lg:text-2xl text-center text-white mb-8 md:mb-12 lg:mb-16 xl:mb-20">
+        Our art shop offers a wide variety of unique and inspiring pieces to suit any taste. From traditional paintings
+        to modern sculptures, our curated selection will transport you to a world of creativity and imagination. Come
+        explore our collection today!
+      </p>
+      <button
+        class="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        Explore Now
+      </button>
+    </div>
+  </section>
+  <h1 class="text-4xl text-bold text-center text-teal-600 bg-slate-100">Features</h1>
+  <section id="features"
+    class="h-screen flex justify-center items-center bg-gradient-to-r from-fuchsia-500 to-indigo-500">
+
+    <div class="container mx-auto flex justify-center items-center">
+      <div class="flex gap-4 justify-center items-center lg:w-3/4">
+        <div
+          class="bg-white rounded-lg overflow-hidden shadow-lg mx-2 lg:mx-0 transform hover:scale-110 transition duration-500 ease-in-out">
+          <img class="w-full h-56 object-cover object-center"
+            src="https://media.istockphoto.com/id/119729855/photo/easel-with-blank-canvas.jpg?s=612x612&w=0&k=20&c=3jcqsmWGjEauN5w-D1hxaEkfePkuRa-niiMKyISyJfc="
+            alt="Easels">
+          <div class="px-4 py-2 bg-teal-600 text-white">
+            <h2 class="text-lg font-bold mb-2">Easels</h2>
+            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg overflow-hidden shadow-lg mx-2 lg:mx-0 transform hover:scale-110 transition duration-500 ease-in-out">
+          <img class="w-full h-56 object-cover object-center"
+            src="https://media.istockphoto.com/id/984342712/photo/color-paint-cans.jpg?s=612x612&w=0&k=20&c=4QWjtMKMohJp3Htz4olUvogja8ezC3vN140vsBJZRY0="
+            alt="Paint Palettes">
+          <div class="px-4 py-2 bg-teal-600 text-white">
+            <h2 class="text-lg font-bold mb-2">Paint Palettes</h2>
+            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg overflow-hidden shadow-lg mx-2 lg:mx-0 transform hover:scale-110 transition duration-500 ease-in-out">
+          <img class="w-full h-56 object-cover object-center"
+            src="https://media.istockphoto.com/id/168851015/photo/assorted-artist-paintbrushes-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=6Q3-vj17A3VpFNScAYkHGoJgdTiIJhbJUC0gMt39qEQ="
+            alt="Artist Brushes">
+          <div class="px-4 py-2 bg-teal-600 text-white">
+            <h2 class="text-lg font-bold mb-2">Artist Brushes</h2>
+            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <h1 class="text-4xl text-bold text-center text-teal-600 bg-slate-100">About Us</h1>
+  <section id="about"
+    class="h-screen bg-gradient-to-r from-rose-600 to-pink-500 flex flex-col justify-center items-center">
+    <div class="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
+      <div class="md:w-1/2">
+        <img
+          src="https://media.istockphoto.com/id/841225924/photo/color-splashes-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=_tTuGzRM4UqLeXfgL-qzmfHIYC8SFKbbDVOOPrp1IL8="
+          alt="About image" class="w-full object-contain object-center h-1/2 rounded-xl">
+      </div>
+      <div class="md:w-1/2 flex flex-col items-center md:items-start justify-center md:pl-8">
+        <h2 class="text-4xl font-bold text-black mb-4">Why Choose Us</h2>
+        <p class="text-black text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id mauris
+          faucibus, imperdiet ipsum in, consectetur risus. Donec vitae sapien eu odio vestibulum efficitur eget sit amet
+          nibh. Mauris eu enim est. </p>
+        <div class="flex">
+          <button
+            class="py-2 px-4 border border-teal-600 text-white hover:bg-teal-600 hover:text-white transition duration-300 ease-in-out mr-4">Read
+            More</button>
+          <button
+            class="py-2 px-4 bg-teal-500 text-white hover:bg-teal-600 transition duration-300 ease-in-out">Explore</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <h1 class="text-4xl text-bold text-center text-teal-600 bg-slate-100">Gallery</h1>
+  <section id="gallery"
+    class="h-screen bg-gradient-to-r from-indigo-600 to-purple-600 flex justify-center items-center">
+    <div class="m-20 flex justify-around items-center flex-wrap mx-auto">
+      <div class="w-72 m-10 transform hover:scale-110 transition duration-300 ease-in-out">
+        <img
+          src="https://media.istockphoto.com/id/479550252/photo/boat-in-bangladesh-river.jpg?s=612x612&w=0&k=20&c=cWVbNbJn9iPnaXPXtPnlUtcgcDtXVWQVafi4A1T9LYA="
+          alt="">
+
+      </div>
+      <div class="w-72 m-10 transform hover:scale-110 transition duration-300 ease-in-out">
+        <img
+          src="https://media.istockphoto.com/id/524265433/photo/fresh.jpg?s=612x612&w=0&k=20&c=TBnHmOhgTAqu0sKxtR6tpxq19z1r8uVlDDAwuuTiPv4="
+          alt="">
+
+      </div>
+      <div class="w-72 m-10 transform hover:scale-110 transition duration-300 ease-in-out">
+        <img
+          src="https://media.istockphoto.com/id/869375868/photo/beautiful-painting-art-watercolor-elephant.jpg?s=612x612&w=0&k=20&c=68MaItV5LSCSuZcIl1ulUa-h19nkmwGDdspSmcI_luQ="
+          alt="">
+
+      </div>
+      <div class="w-72 m-10 transform hover:scale-110 transition duration-300 ease-in-out">
+        <img
+          src="https://media.istockphoto.com/id/955586084/photo/painting-of-four-indians-sailing-on-a-boat-on-canvas.jpg?s=612x612&w=0&k=20&c=9zlNYxU4haurv_bP6LZrdiDQT-99y6WqasR3pJqGXyg= "
+          alt="">
+
+      </div>
+      <div class="w-72 m-10 transform hover:scale-110 transition duration-300 ease-in-out">
+        <img
+          src="https://media.istockphoto.com/id/543464592/photo/oil-painting-landscape-house-in-the-flower-garden-abstract.jpg?s=612x612&w=0&k=20&c=cW-5wW5cr8SlnKfQQ2W11wYzgSMmBaYHloWJ_PjSKus="
+          alt="">
+
+      </div>
+      <div class="w-72 m-10 transform hover:scale-110 transition duration-300 ease-in-out">
+        <img
+          src="https://media.istockphoto.com/id/1011385378/photo/colorful-oil-painting-on-canvas-texture-impressionism-image-of-seascape-paintings-with.jpg?s=612x612&w=0&k=20&c=8lIDy5M--TT4UCSmr7A3J8SLutm924YNx7G_FnqyIlA="
+          alt="">
+
+      </div>
+      <div class="w-72 m-10 transform hover:scale-110 transition duration-300 ease-in-out">
+        <img
+          src="https://media.istockphoto.com/id/543659378/photo/oil-painting-on-canvas-house-on-the-beach.jpg?s=612x612&w=0&k=20&c=dOoe_e-7jYr97p7uutU3pim3_YhT97o0KBYAlN_b28c="
+          alt="">
+
+      </div>
+      <div class="w-72 m-10 transform hover:scale-110 transition duration-300 ease-in-out">
+        <img
+          src="https://media.istockphoto.com/id/1026274356/photo/abstract-acrylic-black-and-white.jpg?s=612x612&w=0&k=20&c=U221Hk8WlzgftTnCuA1EOLRFHg-Z4Q2EyIH9e9Mhy2Y="
+          alt="">
+
+      </div>
+    </div>
+  </section>
+  <h1 class="text-4xl text-bold text-center text-teal-600 bg-slate-100">Review</h1>
+  <section id="review" class="bg-cover bg-center bg-no-repeat bg-fixed py-20"
+    style="background-image: url('https://media.istockphoto.com/id/1203084163/photo/colorful-gradient-background.jpg?s=612x612&w=0&k=20&c=7JzefgTSAbk59aY8H66kjt7q7SAmm-2aQ8c3zrNBFEU=')">
+    <div class="container mx-auto">
+      <h2 class="text-4xl text-black font-bold mb-10 text-center">What Our Customers Say</h2>
+      <div class="flex flex-wrap justify-center gap-10">
+        <div
+          class="w-full md:w-1/3 lg:w-1/4 bg-gradient-to-r from-indigo-300 to-fuchsia-300 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://media.istockphoto.com/id/536010979/photo/artist.jpg?s=612x612&w=0&k=20&c=aGyajXa8PwTkMTsS393vKp6u2Qk7iC0jCjxOW5djz8M="
+            alt="Customer Name" class="w-full h-64 object-cover object-center">
+          <div class="p-6">
+            <p class="text-gray-900 mb-4">"Amazing and unique art shop great products"</p>
+            <p class="text-teal-800 font-bold">- Kalyan</p>
+          </div>
+        </div>
+        <div
+          class="w-full md:w-1/3 lg:w-1/4 bg-gradient-to-r from-indigo-300 to-fuchsia-300 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://media.istockphoto.com/id/1075025362/photo/art-is-my-life.jpg?s=612x612&w=0&k=20&c=VpLTjDsXRpIl-3YjmQhtrnlL7RwBuiPKybqp5-UwBek="
+            alt="Customer Name" class="w-full h-64 object-cover object-center">
+          <div class="p-6">
+            <p class="text-gray-900 mb-4">"Amazing and unique art shop great products"</p>
+            <p class="text-teal-800 font-bold">- Riya</p>
+          </div>
+        </div>
+        <div
+          class="w-full md:w-1/3 lg:w-1/4 bg-gradient-to-r from-indigo-300 to-fuchsia-300 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://media.istockphoto.com/id/1004349214/photo/mature-artist-on-his-art-studio.jpg?s=612x612&w=0&k=20&c=zU4gJ3pxBRYiNtaRMHa5jGq7VM37WiSEG_SHpOuaFxU="
+            alt="Customer Name" class="w-full h-64 object-cover object-center">
+          <div class="p-6">
+            <p class="text-gray-900 mb-4">"Amazing and unique art shop great products"</p>
+            <p class="text-teal-800 font-bold">- Arjun</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <h1 class="text-4xl text-bold text-center text-teal-600 bg-slate-100">Contact Us</h1>
+  <footer id="contact" class="bg-gradient-to-r from-blue-800 to-blue-500 text-white py-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-lg ml-40">
+        <p>Contact us:</p>
+        <p>Email: info@artshop.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+      </div>
+      <nav class="flex space-x-6 mr-20">
+        <a href="#" class="hover:text-gray-300">Home</a>
+        <a href="#" class="hover:text-gray-300">About</a>
+        <a href="#" class="hover:text-gray-300">Gallery</a>
+        <a href="#" class="hover:text-gray-300">Reviews</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+
+</html>
